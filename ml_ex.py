@@ -1,4 +1,3 @@
-from http.client import HTTP_VERSION_NOT_SUPPORTED
 import logging
 import os
 import sys
@@ -9,7 +8,7 @@ import mlflow
 import mlflow.sklearn
 import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from http.client import HTTP_VERSION_NOT_SUPPORTED
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
@@ -19,6 +18,7 @@ from six.moves import urllib
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
